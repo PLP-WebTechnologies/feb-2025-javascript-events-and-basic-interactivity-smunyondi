@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Interactive Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Welcome to the JS Playground 🎉</h1>
+
+  <!-- Event Handling -->
+  <button id="clickBtn">Click Me!</button>
+  <div id="hoverBox">Hover over me</div>
+  <p id="keyInfo">Press any key!</p>
+  <div id="secretBox">Double-click me!</div>
+
+  <!-- Extra Dynamic Style -->
+  <button id="bgChanger">Change Background</button>
+
+  <!-- Interactive Elements -->
+  <button id="colorChangeBtn">Change My Color</button>
+
+  <div class="gallery">
+    <img id="galleryImage" src="https://via.placeholder.com/300x200?text=1" alt="Slideshow" />
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-tab="1">Tab 1</button>
+    <button class="tab" data-tab="2">Tab 2</button>
+    <button class="tab" data-tab="3">Tab 3</button>
+    <div class="tab-content" id="tab1">Content for Tab 1</div>
+    <div class="tab-content" id="tab2">Content for Tab 2</div>
+    <div class="tab-content" id="tab3">Content for Tab 3</div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="myForm">
+    <label>Name: <input type="text" id="name" required /></label><br />
+    <label>Email: <input type="email" id="email" required /></label><br />
+    <label>Password: <input type="password" id="password" required /></label><br />
+    <span id="feedback"></span><br />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
